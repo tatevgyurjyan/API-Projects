@@ -1,0 +1,28 @@
+2021-12-21 13:53:55,158: - DEBUG:Starting new HTTPS connection (1): qwallity3.herokuapp.com:443
+2021-12-21 13:54:03,842: - DEBUG:https://qwallity3.herokuapp.com:443 "POST /add_course/api HTTP/1.1" 200 36
+2021-12-21 13:54:03,846: - INFO:New course is added!
+2021-12-21 13:54:19,847: - DEBUG:Starting new HTTPS connection (1): qwallity3.herokuapp.com:443
+2021-12-21 13:54:20,841: - DEBUG:https://qwallity3.herokuapp.com:443 "POST /add_course/api HTTP/1.1" 200 36
+2021-12-21 13:54:20,845: - INFO:New course is added!
+2021-12-21 13:54:20,847: - DEBUG:Starting new HTTPS connection (1): qwallity3.herokuapp.com:443
+2021-12-21 13:54:21,251: - DEBUG:https://qwallity3.herokuapp.com:443 "POST /add_course/api HTTP/1.1" 200 36
+2021-12-21 13:54:21,254: - INFO:New course is added!
+2021-12-21 13:54:21,257: - DEBUG:Starting new HTTPS connection (1): qwallity2.herokuapp.com:443
+2021-12-21 13:54:27,683: - DEBUG:https://qwallity2.herokuapp.com:443 "PUT /course/15293/update HTTP/1.1" 308 311
+2021-12-21 13:54:28,419: - DEBUG:https://qwallity2.herokuapp.com:443 "PUT /course/15293/update/ HTTP/1.1" 200 35
+2021-12-21 13:54:28,423: - INFO:Course id is updated!
+2021-12-21 13:54:36,343: - DEBUG:Starting new HTTPS connection (1): qwallity3.herokuapp.com:443
+2021-12-21 13:54:36,817: - DEBUG:https://qwallity3.herokuapp.com:443 "POST /add_course/api HTTP/1.1" 200 36
+2021-12-21 13:54:36,821: - INFO:New course is added!
+2021-12-21 13:54:36,825: - DEBUG:Starting new HTTPS connection (1): qwallity3.herokuapp.com:443
+2021-12-21 13:54:37,226: - DEBUG:https://qwallity3.herokuapp.com:443 "POST /add_course/api HTTP/1.1" 200 36
+2021-12-21 13:54:37,229: - INFO:New course is added!
+2021-12-21 13:54:37,231: - DEBUG:Starting new HTTPS connection (1): qwallity2.herokuapp.com:443
+2021-12-21 13:54:37,611: - DEBUG:https://qwallity2.herokuapp.com:443 "DELETE /courses/course/15295 HTTP/1.1" 200 35
+2021-12-21 13:54:37,615: - INFO:Course is deleted!
+2021-12-21 13:54:59,512: - DEBUG:Starting new HTTPS connection (1): qwallity2.herokuapp.com:443
+2021-12-21 13:55:01,579: - DEBUG:https://qwallity2.herokuapp.com:443 "GET /courses/advanced/api HTTP/1.1" 200 199625
+2021-12-21 13:55:01,789: - INFO:Advanced courses are found!
+2021-12-21 13:55:06,274: - DEBUG:Starting new HTTPS connection (1): qwallity2.herokuapp.com:443
+2021-12-21 13:55:06,666: - DEBUG:https://qwallity2.herokuapp.com:443 "GET /courses/fundamental/api HTTP/1.1" 200 4082
+2021-12-21 13:55:06,671: - INFO:Fundamental courses are found!

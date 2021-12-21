@@ -1,0 +1,420 @@
+{
+	"id": "cba74387-7e2b-251c-90a5-c66a6f485b50",
+	"name": "Heroku.app",
+	"allTests": [],
+	"timestamp": 1634462869511,
+	"collection_id": "6d4661cf-9e24-24c3-0e2a-337359fc7e2a",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "6d4661cf-9e24-24c3-0e2a-337359fc7e2a",
+		"name": "Heroku.app",
+		"description": "",
+		"order": [
+			"12ba2744-395e-4d97-df02-1ebefed7fe7c",
+			"ecbcd5be-f027-fec9-402f-357f5eb09f61",
+			"64d589e0-4dbd-fba0-a47c-43b8254a0178",
+			"eeff064f-cca9-19e2-94c4-12f438df3a33",
+			"31fd0f9e-f454-11b3-ea2d-0ef9f4c567db"
+		],
+		"folders": [],
+		"folders_order": [],
+		"requests": [
+			{
+				"id": "12ba2744-395e-4d97-df02-1ebefed7fe7c",
+				"headers": "",
+				"headerData": [],
+				"url": "https://qwallity2.herokuapp.com/courses/fundamental/api",
+				"queryParams": [],
+				"pathVariables": {},
+				"pathVariableData": [],
+				"preRequestScript": null,
+				"method": "GET",
+				"collectionId": "6d4661cf-9e24-24c3-0e2a-337359fc7e2a",
+				"data": null,
+				"dataMode": "params",
+				"name": "https://qwallity2.herokuapp.com/courses/fundamental/api",
+				"description": "",
+				"descriptionFormat": "html",
+				"time": 1634413539720,
+				"version": 2,
+				"responses": [],
+				"tests": null,
+				"currentHelper": "normal",
+				"helperAttributes": {}
+			},
+			{
+				"id": "31fd0f9e-f454-11b3-ea2d-0ef9f4c567db",
+				"headers": "",
+				"headerData": [],
+				"url": "https://qwallity2.herokuapp.com/courses/course/6703",
+				"queryParams": [],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "DELETE",
+				"data": "",
+				"dataMode": "raw",
+				"version": 2,
+				"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1634419788919,
+				"name": "https://qwallity2.herokuapp.com/courses/course/",
+				"description": "",
+				"collectionId": "6d4661cf-9e24-24c3-0e2a-337359fc7e2a",
+				"responses": []
+			},
+			{
+				"id": "64d589e0-4dbd-fba0-a47c-43b8254a0178",
+				"headers": "Content-Type: application/json\n",
+				"headerData": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"enabled": true
+					}
+				],
+				"url": "https://qwallity2.herokuapp.com/add_course/api",
+				"queryParams": [],
+				"pathVariables": {},
+				"pathVariableData": [],
+				"preRequestScript": null,
+				"method": "POST",
+				"collectionId": "6d4661cf-9e24-24c3-0e2a-337359fc7e2a",
+				"data": "{\n\t\n\t\"title\":\"Hello\",\n\t\"body\":\"new course\",\n\t\"coursetype\":\"2\",\n\t\"author\":\"Tatevik\"\n\t\n}",
+				"dataMode": "raw",
+				"name": "https://qwallity2.herokuapp.com/courses/fundamental/api copy",
+				"description": "",
+				"descriptionFormat": "html",
+				"time": 1634418301600,
+				"version": 2,
+				"responses": [],
+				"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+				"currentHelper": "normal",
+				"helperAttributes": {}
+			},
+			{
+				"id": "ecbcd5be-f027-fec9-402f-357f5eb09f61",
+				"headers": "",
+				"headerData": [],
+				"url": "https://qwallity2.herokuapp.com/courses/advanced/api",
+				"queryParams": [],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"tests": null,
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1634413151545,
+				"name": "https://qwallity2.herokuapp.com/courses/fundamental/api",
+				"description": "",
+				"collectionId": "6d4661cf-9e24-24c3-0e2a-337359fc7e2a",
+				"responses": []
+			},
+			{
+				"id": "eeff064f-cca9-19e2-94c4-12f438df3a33",
+				"headers": "Content-Type: application/json\n",
+				"headerData": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"enabled": true
+					}
+				],
+				"url": "https://qwallity2.herokuapp.com/course/6704/update\n\n",
+				"queryParams": [],
+				"pathVariables": {},
+				"pathVariableData": [],
+				"preRequestScript": null,
+				"method": "PUT",
+				"collectionId": "6d4661cf-9e24-24c3-0e2a-337359fc7e2a",
+				"data": "{\n\t\"title\": \"Gute Nacht\",\n\t\"body\": \"changed\"\n}",
+				"dataMode": "raw",
+				"name": "https://qwallity2.herokuapp.com/courses/advanced/api",
+				"description": "",
+				"descriptionFormat": "html",
+				"time": 1634462815244,
+				"version": 2,
+				"responses": [],
+				"tests": null,
+				"currentHelper": "normal",
+				"helperAttributes": {}
+			}
+		],
+		"timestamp": 1634410662299,
+		"synced": false,
+		"syncedFilename": "",
+		"remote_id": 0,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"owner": "14710954",
+		"subscribed": false,
+		"createdAt": 1634410662299,
+		"updatedAt": 1634462829718,
+		"write": true,
+		"published": false,
+		"favorite": true,
+		"permissions": {},
+		"syncedPermissions": {},
+		"sharedWithTeam": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"id": "12ba2744-395e-4d97-df02-1ebefed7fe7c",
+			"name": "https://qwallity2.herokuapp.com/courses/fundamental/api",
+			"url": "https://qwallity2.herokuapp.com/courses/fundamental/api",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				830
+			],
+			"allTests": [
+				{}
+			],
+			"time": 830,
+			"totalRequestTime": 830,
+			"iterationResults": {}
+		},
+		{
+			"id": "ecbcd5be-f027-fec9-402f-357f5eb09f61",
+			"name": "https://qwallity2.herokuapp.com/courses/fundamental/api",
+			"url": "https://qwallity2.herokuapp.com/courses/advanced/api",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				639
+			],
+			"allTests": [
+				{}
+			],
+			"time": 639,
+			"totalRequestTime": 639,
+			"iterationResults": {}
+		},
+		{
+			"id": "64d589e0-4dbd-fba0-a47c-43b8254a0178",
+			"name": "https://qwallity2.herokuapp.com/courses/fundamental/api copy",
+			"url": "https://qwallity2.herokuapp.com/add_course/api",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				248
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": 248,
+			"totalRequestTime": 248,
+			"iterationResults": {}
+		},
+		{
+			"id": "eeff064f-cca9-19e2-94c4-12f438df3a33",
+			"name": "https://qwallity2.herokuapp.com/courses/advanced/api",
+			"url": "https://qwallity2.herokuapp.com/course/6704/update\n\n",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				197
+			],
+			"allTests": [
+				{}
+			],
+			"time": 197,
+			"totalRequestTime": 197,
+			"iterationResults": {}
+		},
+		{
+			"id": "31fd0f9e-f454-11b3-ea2d-0ef9f4c567db",
+			"name": "https://qwallity2.herokuapp.com/courses/course/",
+			"url": "https://qwallity2.herokuapp.com/courses/course/6703",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			],
+			"time": 284,
+			"totalRequestTime": 284,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 2,
+	"totalFail": 0,
+	"totalTime": 2198,
+	"lifecycle": "done",
+	"willStop": false,
+	"requests": [
+		{
+			"name": "https://qwallity2.herokuapp.com/courses/fundamental/api",
+			"id": "12ba2744-395e-4d97-df02-1ebefed7fe7c",
+			"url": "https://qwallity2.herokuapp.com/courses/fundamental/api",
+			"time": 830,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {},
+			"gridTitles": [],
+			"gridData": [
+				[]
+			],
+			"tests": {}
+		},
+		{
+			"name": "https://qwallity2.herokuapp.com/courses/fundamental/api",
+			"id": "ecbcd5be-f027-fec9-402f-357f5eb09f61",
+			"url": "https://qwallity2.herokuapp.com/courses/advanced/api",
+			"time": 639,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {},
+			"gridTitles": [],
+			"gridData": [
+				[]
+			],
+			"tests": {}
+		},
+		{
+			"name": "https://qwallity2.herokuapp.com/courses/fundamental/api copy",
+			"id": "64d589e0-4dbd-fba0-a47c-43b8254a0178",
+			"url": "https://qwallity2.herokuapp.com/add_course/api",
+			"time": 248,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Status code is 200"
+			],
+			"gridData": [
+				[
+					true
+				]
+			],
+			"tests": {
+				"Status code is 200": true
+			}
+		},
+		{
+			"name": "https://qwallity2.herokuapp.com/courses/advanced/api",
+			"id": "eeff064f-cca9-19e2-94c4-12f438df3a33",
+			"url": "https://qwallity2.herokuapp.com/course/6704/update\n\n",
+			"time": 197,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {},
+			"gridTitles": [],
+			"gridData": [
+				[]
+			],
+			"tests": {}
+		},
+		{
+			"name": "https://qwallity2.herokuapp.com/courses/course/",
+			"id": "31fd0f9e-f454-11b3-ea2d-0ef9f4c567db",
+			"url": "https://qwallity2.herokuapp.com/courses/course/6703",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Status code is 200"
+			],
+			"gridData": [
+				[
+					true
+				]
+			],
+			"tests": {
+				"Status code is 200": true
+			}
+		}
+	],
+	"synced": false
+}
